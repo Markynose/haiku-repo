@@ -34,7 +34,7 @@ path; post-dispatch path/handler races are not eliminated.
 - `native_panels_devel-0.1.0-1-x86_64.hpkg`: independent PathBar/DetailsView native
   controls, static library, headers, source/example. MIT applies **only to this
   newly authored UI component/example**, not to recovered fsn or the repository
-  as a whole. See [MIT license](NativePanels-LICENSE.txt) and
+  as a whole. See [MIT license](native-panels/LICENSE.txt) and
   [scope notice](NativePanels-NOTICE.txt).
 
 Original-SGI-derived redistribution clearance is not asserted. Project-owner
