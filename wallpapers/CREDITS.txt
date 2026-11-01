@@ -1,0 +1,45 @@
+unix overflow
+=============
+A collage for Mark's Haiku ThinkPad T460. Created 1 November 2026.
+
+Haiku icons
+-----------
+Haiku Project and its artwork contributors. MIT licence.
+Original artwork: https://github.com/haiku/haiku/tree/49f62bc1728ce870478ae4bdb82201f0ee0c204b/data/artwork
+PNG exports: https://github.com/darealshinji/haiku-icons
+Haiku Inc.'s icon-use statement: https://www.haiku-inc.org/trademarks/haiku_icons/
+The original artwork ReadMe and MIT licence are included in licenses/.
+
+CDE icons
+---------
+The Open Group. Creative Commons Attribution-ShareAlike 3.0 Unported.
+Source: https://github.com/cdesktopenv/cde
+Licence: https://creativecommons.org/licenses/by-sa/3.0/
+CDE's COPYING explicitly applies CC BY-SA 3.0 to images/icons/documentation,
+separately from the code licence. Its full notice is included in licenses/.
+
+Window Maker icons
+------------------
+Marco van Hylckama Vlieg. The selected defaultAppIcon, notepad, sgiterm,
+timer, write, xdvi and xv icons are distributed with permission to reuse
+and modify provided the original author is credited. The exact permission
+is reproduced in licenses/WindowMaker-icon-permission.txt.
+Source: https://github.com/window-maker/wmaker/tree/master/WindowMaker/Icons
+These are Window Maker assets, not claimed to be original NeXTSTEP assets.
+
+Composition and changes
+-----------------------
+Icons were converted to transparent PNG where needed, transparent padding
+was trimmed, and instances were scaled, slightly rotated and overlapped
+on a newly authored charcoal backdrop with shadows. Original icon colours
+were preserved. 205 instances of 38 different source icons are included.
+The 2x version is an exact nearest-neighbour enlargement for sharp edges.
+
+The collage adaptation is provided under CC BY-SA 3.0 Unported, with the
+underlying artwork credited above and its source notices preserved.
+No endorsement by these projects or their authors is implied.
+No uncertain-licence IRIX originals, Haiku wordmarks/leaves, or generic
+distribution logos were used. Haiku is a BeOS-inspired system and is
+included because this wallpaper was specifically requested for Haiku.
+
+Exact per-icon source URLs and pinned commits are in sources.json.

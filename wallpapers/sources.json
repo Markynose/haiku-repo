@@ -1,0 +1,268 @@
+[
+  {
+    "repo": "cdesktopenv/cde",
+    "commit": "d35c607e3a722201c6cd3213491a9483d40ef13e",
+    "source": "https://raw.githubusercontent.com/cdesktopenv/cde/d35c607e3a722201c6cd3213491a9483d40ef13e/cde/programs/icons/DtMail.l.pm",
+    "bytes": 3293,
+    "normalized_asset": "cdesktopenv/DtMail.l.png"
+  },
+  {
+    "repo": "cdesktopenv/cde",
+    "commit": "d35c607e3a722201c6cd3213491a9483d40ef13e",
+    "source": "https://raw.githubusercontent.com/cdesktopenv/cde/d35c607e3a722201c6cd3213491a9483d40ef13e/cde/programs/icons/DtCM.l.pm",
+    "bytes": 3201,
+    "normalized_asset": "cdesktopenv/DtCM.l.png"
+  },
+  {
+    "repo": "cdesktopenv/cde",
+    "commit": "d35c607e3a722201c6cd3213491a9483d40ef13e",
+    "source": "https://raw.githubusercontent.com/cdesktopenv/cde/d35c607e3a722201c6cd3213491a9483d40ef13e/cde/programs/icons/Dtapps.l.pm",
+    "bytes": 3423,
+    "normalized_asset": "cdesktopenv/Dtapps.l.png"
+  },
+  {
+    "repo": "cdesktopenv/cde",
+    "commit": "d35c607e3a722201c6cd3213491a9483d40ef13e",
+    "source": "https://raw.githubusercontent.com/cdesktopenv/cde/d35c607e3a722201c6cd3213491a9483d40ef13e/cde/programs/icons/Dtcalc.l.pm",
+    "bytes": 3207,
+    "normalized_asset": "cdesktopenv/Dtcalc.l.png"
+  },
+  {
+    "repo": "cdesktopenv/cde",
+    "commit": "d35c607e3a722201c6cd3213491a9483d40ef13e",
+    "source": "https://raw.githubusercontent.com/cdesktopenv/cde/d35c607e3a722201c6cd3213491a9483d40ef13e/cde/programs/icons/Dthelp.l.pm",
+    "bytes": 3782,
+    "normalized_asset": "cdesktopenv/Dthelp.l.png"
+  },
+  {
+    "repo": "cdesktopenv/cde",
+    "commit": "d35c607e3a722201c6cd3213491a9483d40ef13e",
+    "source": "https://raw.githubusercontent.com/cdesktopenv/cde/d35c607e3a722201c6cd3213491a9483d40ef13e/cde/programs/icons/Dthome.l.pm",
+    "bytes": 4070,
+    "normalized_asset": "cdesktopenv/Dthome.l.png"
+  },
+  {
+    "repo": "cdesktopenv/cde",
+    "commit": "d35c607e3a722201c6cd3213491a9483d40ef13e",
+    "source": "https://raw.githubusercontent.com/cdesktopenv/cde/d35c607e3a722201c6cd3213491a9483d40ef13e/cde/programs/icons/Dtimage.l.pm",
+    "bytes": 2131,
+    "normalized_asset": "cdesktopenv/Dtimage.l.png"
+  },
+  {
+    "repo": "cdesktopenv/cde",
+    "commit": "d35c607e3a722201c6cd3213491a9483d40ef13e",
+    "source": "https://raw.githubusercontent.com/cdesktopenv/cde/d35c607e3a722201c6cd3213491a9483d40ef13e/cde/programs/icons/Dtpaint.l.pm",
+    "bytes": 4069,
+    "normalized_asset": "cdesktopenv/Dtpaint.l.png"
+  },
+  {
+    "repo": "cdesktopenv/cde",
+    "commit": "d35c607e3a722201c6cd3213491a9483d40ef13e",
+    "source": "https://raw.githubusercontent.com/cdesktopenv/cde/d35c607e3a722201c6cd3213491a9483d40ef13e/cde/programs/icons/Dtstyle.l.pm",
+    "bytes": 3487,
+    "normalized_asset": "cdesktopenv/Dtstyle.l.png"
+  },
+  {
+    "repo": "cdesktopenv/cde",
+    "commit": "d35c607e3a722201c6cd3213491a9483d40ef13e",
+    "source": "https://raw.githubusercontent.com/cdesktopenv/cde/d35c607e3a722201c6cd3213491a9483d40ef13e/cde/programs/icons/Dtterm.l.pm",
+    "bytes": 3187,
+    "normalized_asset": "cdesktopenv/Dtterm.l.png"
+  },
+  {
+    "repo": "cdesktopenv/cde",
+    "commit": "d35c607e3a722201c6cd3213491a9483d40ef13e",
+    "source": "https://raw.githubusercontent.com/cdesktopenv/cde/d35c607e3a722201c6cd3213491a9483d40ef13e/cde/programs/icons/Fpclock.l.pm",
+    "bytes": 3350,
+    "normalized_asset": "cdesktopenv/Fpclock.l.png"
+  },
+  {
+    "repo": "cdesktopenv/cde",
+    "commit": "d35c607e3a722201c6cd3213491a9483d40ef13e",
+    "source": "https://raw.githubusercontent.com/cdesktopenv/cde/d35c607e3a722201c6cd3213491a9483d40ef13e/cde/programs/icons/Fptrsh.l.pm",
+    "bytes": 4070,
+    "normalized_asset": "cdesktopenv/Fptrsh.l.png"
+  },
+  {
+    "repo": "cdesktopenv/cde",
+    "commit": "d35c607e3a722201c6cd3213491a9483d40ef13e",
+    "source": "https://raw.githubusercontent.com/cdesktopenv/cde/d35c607e3a722201c6cd3213491a9483d40ef13e/cde/programs/icons/Fpprnt.l.pm",
+    "bytes": 3682,
+    "normalized_asset": "cdesktopenv/Fpprnt.l.png"
+  },
+  {
+    "repo": "cdesktopenv/cde",
+    "commit": "d35c607e3a722201c6cd3213491a9483d40ef13e",
+    "source": "https://raw.githubusercontent.com/cdesktopenv/cde/d35c607e3a722201c6cd3213491a9483d40ef13e/cde/programs/icons/Dtdata.l.pm",
+    "bytes": 1753,
+    "normalized_asset": "cdesktopenv/Dtdata.l.png"
+  },
+  {
+    "repo": "cdesktopenv/cde",
+    "commit": "d35c607e3a722201c6cd3213491a9483d40ef13e",
+    "source": "https://raw.githubusercontent.com/cdesktopenv/cde/d35c607e3a722201c6cd3213491a9483d40ef13e/cde/programs/icons/DtBldr.l.pm",
+    "bytes": 3273,
+    "normalized_asset": "cdesktopenv/DtBldr.l.png"
+  },
+  {
+    "repo": "window-maker/wmaker",
+    "commit": "558e67f30331eb03955d7bf3bf4a55c8520c64b6",
+    "source": "https://raw.githubusercontent.com/window-maker/wmaker/558e67f30331eb03955d7bf3bf4a55c8520c64b6/WindowMaker/Icons/defaultAppIcon.xpm",
+    "bytes": 6558,
+    "normalized_asset": "window-maker/defaultAppIcon.png"
+  },
+  {
+    "repo": "window-maker/wmaker",
+    "commit": "558e67f30331eb03955d7bf3bf4a55c8520c64b6",
+    "source": "https://raw.githubusercontent.com/window-maker/wmaker/558e67f30331eb03955d7bf3bf4a55c8520c64b6/WindowMaker/Icons/notepad.xpm",
+    "bytes": 9499,
+    "normalized_asset": "window-maker/notepad.png"
+  },
+  {
+    "repo": "window-maker/wmaker",
+    "commit": "558e67f30331eb03955d7bf3bf4a55c8520c64b6",
+    "source": "https://raw.githubusercontent.com/window-maker/wmaker/558e67f30331eb03955d7bf3bf4a55c8520c64b6/WindowMaker/Icons/sgiterm.xpm",
+    "bytes": 9072,
+    "normalized_asset": "window-maker/sgiterm.png"
+  },
+  {
+    "repo": "window-maker/wmaker",
+    "commit": "558e67f30331eb03955d7bf3bf4a55c8520c64b6",
+    "source": "https://raw.githubusercontent.com/window-maker/wmaker/558e67f30331eb03955d7bf3bf4a55c8520c64b6/WindowMaker/Icons/timer.xpm",
+    "bytes": 9367,
+    "normalized_asset": "window-maker/timer.png"
+  },
+  {
+    "repo": "window-maker/wmaker",
+    "commit": "558e67f30331eb03955d7bf3bf4a55c8520c64b6",
+    "source": "https://raw.githubusercontent.com/window-maker/wmaker/558e67f30331eb03955d7bf3bf4a55c8520c64b6/WindowMaker/Icons/write.xpm",
+    "bytes": 9543,
+    "normalized_asset": "window-maker/write.png"
+  },
+  {
+    "repo": "window-maker/wmaker",
+    "commit": "558e67f30331eb03955d7bf3bf4a55c8520c64b6",
+    "source": "https://raw.githubusercontent.com/window-maker/wmaker/558e67f30331eb03955d7bf3bf4a55c8520c64b6/WindowMaker/Icons/xdvi.xpm",
+    "bytes": 8905,
+    "normalized_asset": "window-maker/xdvi.png"
+  },
+  {
+    "repo": "window-maker/wmaker",
+    "commit": "558e67f30331eb03955d7bf3bf4a55c8520c64b6",
+    "source": "https://raw.githubusercontent.com/window-maker/wmaker/558e67f30331eb03955d7bf3bf4a55c8520c64b6/WindowMaker/Icons/xv.xpm",
+    "bytes": 8531,
+    "normalized_asset": "window-maker/xv.png"
+  },
+  {
+    "repo": "darealshinji/haiku-icons",
+    "commit": "ccf434a0cf31aae47cc8aac91934651619c1b9b2",
+    "source": "https://raw.githubusercontent.com/darealshinji/haiku-icons/ccf434a0cf31aae47cc8aac91934651619c1b9b2/png/64x64/App_Terminal.png",
+    "bytes": 4422,
+    "normalized_asset": "darealshinji/App_Terminal.png"
+  },
+  {
+    "repo": "darealshinji/haiku-icons",
+    "commit": "ccf434a0cf31aae47cc8aac91934651619c1b9b2",
+    "source": "https://raw.githubusercontent.com/darealshinji/haiku-icons/ccf434a0cf31aae47cc8aac91934651619c1b9b2/png/64x64/App_Tracker.png",
+    "bytes": 5776,
+    "normalized_asset": "darealshinji/App_Tracker.png"
+  },
+  {
+    "repo": "darealshinji/haiku-icons",
+    "commit": "ccf434a0cf31aae47cc8aac91934651619c1b9b2",
+    "source": "https://raw.githubusercontent.com/darealshinji/haiku-icons/ccf434a0cf31aae47cc8aac91934651619c1b9b2/png/64x64/App_Deskbar.png",
+    "bytes": 5615,
+    "normalized_asset": "darealshinji/App_Deskbar.png"
+  },
+  {
+    "repo": "darealshinji/haiku-icons",
+    "commit": "ccf434a0cf31aae47cc8aac91934651619c1b9b2",
+    "source": "https://raw.githubusercontent.com/darealshinji/haiku-icons/ccf434a0cf31aae47cc8aac91934651619c1b9b2/png/64x64/App_Mail.png",
+    "bytes": 5916,
+    "normalized_asset": "darealshinji/App_Mail.png"
+  },
+  {
+    "repo": "darealshinji/haiku-icons",
+    "commit": "ccf434a0cf31aae47cc8aac91934651619c1b9b2",
+    "source": "https://raw.githubusercontent.com/darealshinji/haiku-icons/ccf434a0cf31aae47cc8aac91934651619c1b9b2/png/64x64/App_StyledEdit.png",
+    "bytes": 5112,
+    "normalized_asset": "darealshinji/App_StyledEdit.png"
+  },
+  {
+    "repo": "darealshinji/haiku-icons",
+    "commit": "ccf434a0cf31aae47cc8aac91934651619c1b9b2",
+    "source": "https://raw.githubusercontent.com/darealshinji/haiku-icons/ccf434a0cf31aae47cc8aac91934651619c1b9b2/png/64x64/App_Icon-O-Matic.png",
+    "bytes": 5632,
+    "normalized_asset": "darealshinji/App_Icon-O-Matic.png"
+  },
+  {
+    "repo": "darealshinji/haiku-icons",
+    "commit": "ccf434a0cf31aae47cc8aac91934651619c1b9b2",
+    "source": "https://raw.githubusercontent.com/darealshinji/haiku-icons/ccf434a0cf31aae47cc8aac91934651619c1b9b2/png/64x64/App_HaikuDepot.png",
+    "bytes": 5150,
+    "normalized_asset": "darealshinji/App_HaikuDepot.png"
+  },
+  {
+    "repo": "darealshinji/haiku-icons",
+    "commit": "ccf434a0cf31aae47cc8aac91934651619c1b9b2",
+    "source": "https://raw.githubusercontent.com/darealshinji/haiku-icons/ccf434a0cf31aae47cc8aac91934651619c1b9b2/png/64x64/App_Pulse.png",
+    "bytes": 4409,
+    "normalized_asset": "darealshinji/App_Pulse.png"
+  },
+  {
+    "repo": "darealshinji/haiku-icons",
+    "commit": "ccf434a0cf31aae47cc8aac91934651619c1b9b2",
+    "source": "https://raw.githubusercontent.com/darealshinji/haiku-icons/ccf434a0cf31aae47cc8aac91934651619c1b9b2/png/64x64/App_Calculator.png",
+    "bytes": 4217,
+    "normalized_asset": "darealshinji/App_Calculator.png"
+  },
+  {
+    "repo": "darealshinji/haiku-icons",
+    "commit": "ccf434a0cf31aae47cc8aac91934651619c1b9b2",
+    "source": "https://raw.githubusercontent.com/darealshinji/haiku-icons/ccf434a0cf31aae47cc8aac91934651619c1b9b2/png/64x64/App_ShowImage.png",
+    "bytes": 4165,
+    "normalized_asset": "darealshinji/App_ShowImage.png"
+  },
+  {
+    "repo": "darealshinji/haiku-icons",
+    "commit": "ccf434a0cf31aae47cc8aac91934651619c1b9b2",
+    "source": "https://raw.githubusercontent.com/darealshinji/haiku-icons/ccf434a0cf31aae47cc8aac91934651619c1b9b2/png/64x64/App_MediaPlayer.png",
+    "bytes": 3744,
+    "normalized_asset": "darealshinji/App_MediaPlayer.png"
+  },
+  {
+    "repo": "darealshinji/haiku-icons",
+    "commit": "ccf434a0cf31aae47cc8aac91934651619c1b9b2",
+    "source": "https://raw.githubusercontent.com/darealshinji/haiku-icons/ccf434a0cf31aae47cc8aac91934651619c1b9b2/png/64x64/App_Expander.png",
+    "bytes": 5003,
+    "normalized_asset": "darealshinji/App_Expander.png"
+  },
+  {
+    "repo": "darealshinji/haiku-icons",
+    "commit": "ccf434a0cf31aae47cc8aac91934651619c1b9b2",
+    "source": "https://raw.githubusercontent.com/darealshinji/haiku-icons/ccf434a0cf31aae47cc8aac91934651619c1b9b2/png/64x64/Device_Harddisk.png",
+    "bytes": 3293,
+    "normalized_asset": "darealshinji/Device_Harddisk.png"
+  },
+  {
+    "repo": "darealshinji/haiku-icons",
+    "commit": "ccf434a0cf31aae47cc8aac91934651619c1b9b2",
+    "source": "https://raw.githubusercontent.com/darealshinji/haiku-icons/ccf434a0cf31aae47cc8aac91934651619c1b9b2/png/64x64/Device_Floppy.png",
+    "bytes": 3196,
+    "normalized_asset": "darealshinji/Device_Floppy.png"
+  },
+  {
+    "repo": "darealshinji/haiku-icons",
+    "commit": "ccf434a0cf31aae47cc8aac91934651619c1b9b2",
+    "source": "https://raw.githubusercontent.com/darealshinji/haiku-icons/ccf434a0cf31aae47cc8aac91934651619c1b9b2/png/64x64/Folder_home.png",
+    "bytes": 4355,
+    "normalized_asset": "darealshinji/Folder_home.png"
+  },
+  {
+    "repo": "darealshinji/haiku-icons",
+    "commit": "ccf434a0cf31aae47cc8aac91934651619c1b9b2",
+    "source": "https://raw.githubusercontent.com/darealshinji/haiku-icons/ccf434a0cf31aae47cc8aac91934651619c1b9b2/png/64x64/Folder_development.png",
+    "bytes": 4447,
+    "normalized_asset": "darealshinji/Folder_development.png"
+  }
+]
