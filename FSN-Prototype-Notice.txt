@@ -1,0 +1,31 @@
+FSN native Haiku UI prototype: scoped notices, not a blanket license
+
+This package contains newly written host code and original-SGI-fsn-derived
+layout/navigation behavior recovered by static analysis. It does NOT contain
+or execute the original SGI binary. It is an experimental original-derived build, not
+an official SGI release or a representation that original-derived source or
+binary redistribution rights have been cleared. No blanket MIT permission is
+asserted for this application, recovered core, or renderer.
+
+Original attribution preserved from archived fsn 1.2:
+Copyright 1992, 1993, 1996 Silicon Graphics, Inc. All rights reserved.
+Joel Tesler and Steve Strasnick. The original identified itself as a
+demonstration without warranty and stated that source code was not available.
+This attribution is not a grant of permission. Publication authorization from
+the project owner does not grant rights in third-party material or establish
+original-SGI redistribution clearance.
+
+The small newly authored NativePanels UI component and standalone example are
+independently MIT-licensed. Its exact LICENSE and NOTICE are included separately
+under documentation; that grant is limited to those authored component files.
+
+The bundled DejaVuSans font has its own DejaVu/Bitstream license, included in
+viewer/fonts/DejaVu-LICENSE.txt. FreeType is a system runtime dependency, not
+bundled implementation code. The Haiku SDK and system libraries retain their
+own respective notices. No component license is enlarged by this package.
+
+No warranty is provided. File opening is an explicit native default-handler
+request for conservatively supported regular non-executable files, not a
+sandbox or atomic descriptor handoff. Paths and handlers can change after
+validation; editors operate on the original file. No copy/move/delete is
+implemented by this prototype.

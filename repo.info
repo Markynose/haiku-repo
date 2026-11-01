@@ -1,0 +1,6 @@
+name FSNPrototypePreview
+vendor "FSN Prototype Preview"
+summary "Experimental native Haiku fsn prototype and independent NativePanels development library"
+priority 2
+identifier https://markynose.github.io/haiku-repo/
+architecture x86_64

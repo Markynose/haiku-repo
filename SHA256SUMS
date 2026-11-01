@@ -1,0 +1,5 @@
+79e7a235bdd6a63c06fb48be9a030ccfc2b93f4aa6ce25eb31d3f702d7cd80ff  repo
+7b91d593ea32d10c2a00dd1342f1852d80bbd8fb77cfe1df819898dedb310a05  repo.info
+cc219364b9a5d5544bdd5898ea93d179d6855b8e5e8e05035cb6af9e525122b2  repo.sha256
+3842e3f296d88e42d89ad6a908dda8d0c4adb9c1b9b6a77e7d8b257dbf6d5765  packages/fsn_native-0.1.0-2-x86_64.hpkg
+3968f5070fef4d94056395573fefcae87391aa0433a5a7f53ccaa8ddda1aa63a  packages/native_panels_devel-0.1.0-1-x86_64.hpkg

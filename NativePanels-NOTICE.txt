@@ -1,0 +1,17 @@
+NativePanels component boundary
+
+The newly authored NativePanels.h, NativePanels.cpp, example.cpp, Makefile and
+README.md in this directory are provided under the accompanying MIT License.
+The static archive libnativepanels.a is built only from NativePanels.cpp;
+the standalone example links only that archive and the Haiku system libraries
+needed by its native C++ Interface/Application Kit API usage.
+
+This permission does NOT apply to the surrounding original-derived fsn
+recovery core, renderer, navigation code, SGI material, other components,
+Haiku SDK headers, Haiku system libraries, fonts or any third-party software.
+Those retain their own provenance, licenses and redistribution restrictions.
+
+No original fsn code, binary data, shader, rendering code, recovered formula,
+font, SDL code or FreeType code is included in this component or its example.
+Only standard publicly documented Haiku APIs are called. Haiku's system
+libraries and SDK headers are external dependencies, not relicensed here.
