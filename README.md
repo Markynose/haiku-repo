@@ -43,7 +43,7 @@ path; post-dispatch path/handler races are not eliminated.
 
 ## Packages and license boundaries
 
-- `fsn_native-0.2.1-2-x86_64.hpkg`: bounded asynchronous root startup,
+- `fsn_native-0.2.2-1-x86_64.hpkg`: CPU renderer optimization, bounded asynchronous root startup,
   cancellation/retry and saved-scene loading, plus exact uint64 sizes/totals and explicit
   read-only Haiku stored-attribute/MIME inspection. See
   [FSN-Prototype-Notice](FSN-Prototype-Notice.txt).
@@ -53,7 +53,7 @@ path; post-dispatch path/handler races are not eliminated.
   not recovered fsn or the repository as a whole. See
   [MIT license](native-panels/LICENSE.txt) and [scope notice](NativePanels-NOTICE.txt).
 
-Earlier app package files remain available for history; the index selects app 0.2.1
+Earlier app package files remain available for history; the index selects app 0.2.2
 and NativePanels 0.2.0.
 
 Original-SGI-derived redistribution clearance is not asserted. Project-owner
