@@ -11,6 +11,7 @@ repositories. The existing Linux/SDL edition is separate.
 
 ```sh
 pkgman add-repo https://markynose.github.io/haiku-repo/
+pkgman refresh
 pkgman install fsn_native
 # Optional reusable UI headers/static library/example:
 pkgman install native_panels_devel
@@ -20,8 +21,15 @@ The same base URL can be added through Haiku Repositories preferences for
 HaikuDepot. Runtime minimums are declared in the packages: Haiku beta6
 hrev59866+79, GCC13 C++ runtime; the fsn app additionally requires FreeType2.14.3.
 
-Launch **FSN Native** in Deskbar Applications to load a saved scene JSON. To
-scan and view an actual modest directory: `fsn-scan-view /boot/home/small-folder`.
+Launch **FSN Native** in Deskbar Applications to scan `/` automatically. The
+initial view shows / and its direct children using the existing directory
+warp view, avoiding an unreadable whole-tree overview. Select a child directory
+to enter it; Escape then Overview shows the full scanned landscape. The
+scan runs in a separate process with Cancel, retry and saved-scene fallback.
+The initial snapshot is bounded to depth 4, 1500 nodes, 2000 entries per directory
+and a cooperative 2-second traversal budget; a 15-second outer deadline applies.
+Skipped entries and limits produce a visibly labelled partial tree. It is not a
+complete volume inventory or a live file-manager view. To scan another directory: `fsn-scan-view /boot/home/small-folder`.
 Version 0.2 uses checked uint64 file sizes and totals with exact decimal metadata.
 Small scenes preserve recovered geometry; larger scenes use explicitly marked
 normalized geometry (a modern extension). Open remains limited to 64 MiB.
@@ -35,7 +43,8 @@ path; post-dispatch path/handler races are not eliminated.
 
 ## Packages and license boundaries
 
-- `fsn_native-0.2.0-1-x86_64.hpkg`: exact uint64 sizes/totals and explicit
+- `fsn_native-0.2.1-2-x86_64.hpkg`: bounded asynchronous root startup,
+  cancellation/retry and saved-scene loading, plus exact uint64 sizes/totals and explicit
   read-only Haiku stored-attribute/MIME inspection. See
   [FSN-Prototype-Notice](FSN-Prototype-Notice.txt).
 - `native_panels_devel-0.2.0-1-x86_64.hpkg`: independent PathBar, DetailsView and
@@ -44,7 +53,8 @@ path; post-dispatch path/handler races are not eliminated.
   not recovered fsn or the repository as a whole. See
   [MIT license](native-panels/LICENSE.txt) and [scope notice](NativePanels-NOTICE.txt).
 
-Earlier 0.1 package files remain available for history; the index selects 0.2.
+Earlier app package files remain available for history; the index selects app 0.2.1
+and NativePanels 0.2.0.
 
 Original-SGI-derived redistribution clearance is not asserted. Project-owner
 publication authorization does not grant third-party rights or convert recovered
@@ -73,3 +83,11 @@ The 0.2 native installed-package, synthetic BFS and exact UINT64_MAX tests passe
 The permission-denial assertion was skipped under the VM root account. The
 public-URL guest test remains limited by the environment HTTPS proxy CA; TLS
 verification was not bypassed. Local native repository downloads/install were tested.
+
+The 0.2.1 final native tests additionally passed actual `/` startup, controlled
+Cancel/retry/close, saved-scene picker cancellation and refs loading, controller
+and uint64 regressions, unchanged BFS/UI suites, local 0.2-to-0.2.1 upgrade,
+installed no-argument/scene/wrapper launch and isolated repository reinstall.
+The app and HPKR index were exported from Haiku and verified by SHA256 on the
+host. A stale cached transaction copy was rejected and successfully downloaded
+again during local repository testing; checksum verification was not bypassed.
