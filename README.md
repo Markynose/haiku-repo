@@ -91,3 +91,20 @@ installed no-argument/scene/wrapper launch and isolated repository reinstall.
 The app and HPKR index were exported from Haiku and verified by SHA256 on the
 host. A stale cached transaction copy was rejected and successfully downloaded
 again during local repository testing; checksum verification was not bypassed.
+
+## 0.2.2 navigation CPU optimization
+
+Triangle reciprocal constants are computed once and common face-clipping buffers
+use stack storage, reducing allocation and per-pixel work. The renderer remains
+single-threaded, at the same resolution with labels and picking preserved. Idle
+redraw was already gated. This is not a GPU renderer or a CPU-utilization cap;
+large active views can still occupy one core. Native VM measurements and exact
+pixel/pick comparisons are included with the source release.
+
+In paired native Haiku/QEMU dense-scene tests, 0.2.2 used 39–42% less CPU time
+per frame (~1.7× throughput); the small root view was effectively unchanged.
+These are VM workload results, not guaranteed hardware gains. Final old/new
+fixed-camera pixel/pick buffers matched, sanitizer checks passed, and the
+0.2.2 package passed native installed root/scene launch and UI QA. Idle remained
+low in both builds. This release's HPKR index was generated natively; public
+availability is verified separately after deployment.
