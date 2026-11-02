@@ -17,8 +17,18 @@ pkgman install ./mame_sgi-0.289-1-x86_64.hpkg
 mame_sgi
 ```
 
-Native repository-index integration is pending validation. Do not assume the
-root FSN package index already contains this package.
+A separate MAME repository is required because this tested package's vendor
+is `Unofficial local build`, whereas the existing FSN repository has a different
+vendor. The root FSN repository and all old packages are preserved unchanged.
+The MAME-only index was generated natively and selects the exact tested package. Use:
+
+```sh
+pkgman add-repo https://markynose.github.io/haiku-repo/mame/
+pkgman refresh
+pkgman install mame_sgi
+```
+
+Do not use the root FSN repository URL for this package.
 
 Run the `mame_sgi` launcher, not the inner executable. It scopes LIBRARY_PATH
 to its application-private SDL and does not replace system SDL. It provides
