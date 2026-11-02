@@ -1,0 +1,6 @@
+name MAMESGIExperimental
+vendor "Unofficial local build"
+summary "Experimental modified MAME SGI for Haiku; full IRIX desktop not verified"
+priority 2
+identifier https://markynose.github.io/haiku-repo/mame/
+architecture x86_64
