@@ -1,6 +1,6 @@
 # Experimental MAME SGI 0.289-1 for Haiku x86_64
 
-**Unofficial modified test build. Full IRIX desktop and reboot NOT verified.**
+**Unofficial modified test build. IRIX 5.3 installation and two cold desktop launches verified in a Haiku VM; warm restart failed.**
 This is MAME 0.289 with local package revision 1, not a stock upstream release,
 not upstream 0.289.1, and not a replacement for full official MAME.
 
@@ -61,15 +61,35 @@ through selector window/fullscreen and clean exit, then uninstalled. Native
 loader evidence confirmed app-private SDL; system SDL2 and SDL2_ttf hashes
 were unchanged after install and uninstall.
 
-IRIX 5.3 kernel, miniroot and Inst were reached. A test VM BFS work-volume
-write stall paused installation; its cause is not established. **Full installed
-IRIX desktop and reboot remain unverified.** No physical hardware coverage
-or complete IRIX installation success is claimed.
+### Desktop follow-through — 2026-11-02 UTC
 
-The package/source staging README retains a timestamped earlier warning that
-package lifecycle QA was pending. Final lifecycle results above supersede that
-staging warning, not the outstanding full-desktop limitation. Final native QA
-and build/source provenance are included in the corresponding-source archive.
+The unchanged MAME build and app-private SDL completed a fresh IRIX 5.3
+installation with a FAT32-backed CHD in the Haiku VM. Inst explicitly reported
+success at 15:44; finalization completed. A cold MAME launch reached the
+populated desktop. Console `uname -a` returned
+`IRIX IRIS 5.3 11091812 IP22 mips`. Clean guest shutdown reached the safe-to-power-off
+screen, followed by normal MAME exit at 18:46. Original input defaults were
+restored; a second cold launch reached a fully populated desktop at 19:36.
+
+**Known failure:** the installation's warm restart raised a UTLB-miss exception.
+Cold launch success does not establish working warm restart or general stability.
+Keyboard/menu interaction and emulated PS/2 pointer movement were exercised;
+pointer testing temporarily changed MAME Digital Speed settings, then restored
+the original defaults. Normal physical mouse behavior remains unverified;
+host synthetic motion tests were inconclusive.
+
+The earlier BFS-backed CHD attempt stalled in a Haiku page-cache quota wait
+(`ModifiedPageQueueWaitIfOverQuota`), with another process waiting on the BFS
+journal. The clean FAT-backed reinstall succeeded, but this is a workaround
+trial, not an established root cause or OS fix. No performance, physical-hardware,
+complete emulation-correctness or long-term stability claim is made.
+
+[Detailed dated QA and selected UI screenshots](mame/DESKTOP-QA.md).
+The binary, complete corresponding-source archive and native repository index
+are unchanged. Their earlier README/metadata warnings are historical and are
+superseded only by the specific dated results here; remaining limitations still
+apply. No installed OS disk, ROM, firmware, ISO, RAM snapshot, NVRAM or private
+checkpoint is distributed with this evidence update.
 
 ## Licensing and corresponding source
 
